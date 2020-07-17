@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CleanArch.Domain.Interfaces;
+﻿using CleanArch.Domain.Interfaces;
 using CleanArch.Domain.Models;
 using CleanArch.Infra.Data.Context;
+using System.Linq;
 
 namespace CleanArch.Infra.Data.Repository
 {
@@ -18,7 +14,7 @@ namespace CleanArch.Infra.Data.Repository
             _ctx = ctx;
         }
 
-        public IEnumerable<Course> GetCourses()
+        public IQueryable<Course> GetCourses()
         {
             return _ctx.Courses;
         }

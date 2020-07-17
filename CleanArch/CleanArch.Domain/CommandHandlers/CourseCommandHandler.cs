@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using CleanArch.Domain.Commands;
+﻿using CleanArch.Domain.Commands;
 using CleanArch.Domain.Interfaces;
 using CleanArch.Domain.Models;
 using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace CleanArch.Domain.CommandHandlers
 {

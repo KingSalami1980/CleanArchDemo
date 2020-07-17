@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CleanArch.Application.Interfaces;
+﻿using CleanArch.Application.Interfaces;
 using CleanArch.Application.Services;
 using CleanArch.Domain.CommandHandlers;
 using CleanArch.Domain.Commands;
@@ -15,7 +10,7 @@ using CleanArch.Infra.Data.Repository;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CleanArc.Infra.IoC
+namespace CleanArch.Infra.IoC
 {
     public class DependencyContainer
     {

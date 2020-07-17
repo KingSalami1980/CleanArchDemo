@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "Cle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{D6B17ADA-7CDF-4F9C-BFAB-1C365132034F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArc.Infra.IoC", "CleanArc.Infra.IoC\CleanArc.Infra.IoC.csproj", "{F3D8A458-0271-4430-82E3-D0E9E3FEC8D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.IoC", "CleanArc.Infra.IoC\CleanArch.Infra.IoC.csproj", "{F3D8A458-0271-4430-82E3-D0E9E3FEC8D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{86A8C7B2-E5DF-43A3-BA80-872E66902FA1}"
 EndProject
